@@ -1,4 +1,3 @@
-import { StandardFonts } from "pdf-lib";
 export interface Color {
   r: number;
   g: number;
@@ -7,7 +6,7 @@ export interface Color {
 
 export interface Options {
   names: string[];
-  template: string;
+  templatepath: string;
   outdir?: string;
   x?: number;
   y?: number;

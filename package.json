@@ -1,16 +1,29 @@
 {
   "name": "makecert",
   "version": "1.0.0",
-  "description": "",
+  "description": "A typeScript package for generating custom certificates from a PDF template with ease.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "npm run build",
-    "test": "npm run build && node tests/test"
+    "test": "npm run build && node tests/test",
+    "start": "node tests/test"
   },
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karthikeyaspace/makecert.git"
+  },
+  "homepage": "https://github.com/karthikeyaspace/makecert#readme",
+  "keywords": [
+    "pdf",
+    "certificate",
+    "pdf-lib",
+    "typescript",
+    "certificates"
+  ],
+  "author": "Karthikeya Veruturi",
+  "license": "MIT",
   "dependencies": {
     "@pdf-lib/fontkit": "^1.1.1",
     "@types/node": "^22.2.0",
