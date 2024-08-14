@@ -1,5 +1,5 @@
 {
-  "name": "makecert",
+  "name": "@karthikeyaspace/makecert",
   "version": "1.0.0",
   "description": "A typeScript package for generating custom certificates from a PDF template with ease.",
   "main": "dist/index.js",
